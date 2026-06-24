@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 18
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UltraLowLatencyCall - Standalone Plugin", "UltraLowLatencyCall_StandalonePlugin.vcxproj", "{71F2EFB5-C5EB-08BA-6F22-9BB035F4D3D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B7A217E-FEB8-7828-B9B0-B7C9D1499BCE} = {8B7A217E-FEB8-7828-B9B0-B7C9D1499BCE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UltraLowLatencyCall - VST3", "UltraLowLatencyCall_VST3.vcxproj", "{2E700EA5-202B-363C-7947-020B1D33037D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B7A217E-FEB8-7828-B9B0-B7C9D1499BCE} = {8B7A217E-FEB8-7828-B9B0-B7C9D1499BCE}
+		{B469BB78-D197-37AF-146F-436346BCAF68} = {B469BB78-D197-37AF-146F-436346BCAF68}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UltraLowLatencyCall - Shared Code", "UltraLowLatencyCall_SharedCode.vcxproj", "{8B7A217E-FEB8-7828-B9B0-B7C9D1499BCE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UltraLowLatencyCall - VST3 Manifest Helper", "UltraLowLatencyCall_VST3ManifestHelper.vcxproj", "{B469BB78-D197-37AF-146F-436346BCAF68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E700EA5-202B-363C-7947-020B1D33037D}.Debug|x64.ActiveCfg = Debug|x64
+		{2E700EA5-202B-363C-7947-020B1D33037D}.Debug|x64.Build.0 = Debug|x64
+		{2E700EA5-202B-363C-7947-020B1D33037D}.Release|x64.ActiveCfg = Release|x64
+		{2E700EA5-202B-363C-7947-020B1D33037D}.Release|x64.Build.0 = Release|x64
+		{71F2EFB5-C5EB-08BA-6F22-9BB035F4D3D8}.Debug|x64.ActiveCfg = Debug|x64
+		{71F2EFB5-C5EB-08BA-6F22-9BB035F4D3D8}.Debug|x64.Build.0 = Debug|x64
+		{71F2EFB5-C5EB-08BA-6F22-9BB035F4D3D8}.Release|x64.ActiveCfg = Release|x64
+		{71F2EFB5-C5EB-08BA-6F22-9BB035F4D3D8}.Release|x64.Build.0 = Release|x64
+		{8B7A217E-FEB8-7828-B9B0-B7C9D1499BCE}.Debug|x64.ActiveCfg = Debug|x64
+		{8B7A217E-FEB8-7828-B9B0-B7C9D1499BCE}.Debug|x64.Build.0 = Debug|x64
+		{8B7A217E-FEB8-7828-B9B0-B7C9D1499BCE}.Release|x64.ActiveCfg = Release|x64
+		{8B7A217E-FEB8-7828-B9B0-B7C9D1499BCE}.Release|x64.Build.0 = Release|x64
+		{B469BB78-D197-37AF-146F-436346BCAF68}.Debug|x64.ActiveCfg = Debug|Win32
+		{B469BB78-D197-37AF-146F-436346BCAF68}.Debug|x64.Build.0 = Debug|Win32
+		{B469BB78-D197-37AF-146F-436346BCAF68}.Release|x64.ActiveCfg = Release|Win32
+		{B469BB78-D197-37AF-146F-436346BCAF68}.Release|x64.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

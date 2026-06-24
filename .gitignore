@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+ipch/
+Debug/
+Release/
+x64/
+
+# JUCE ビルド成果物
+Builds/VisualStudio*/x64/
+JuceLibraryCode/
+
+# vcpkg
+vcpkg_installed/
+
+# OS
+.DS_Store
+Thumbs.db
