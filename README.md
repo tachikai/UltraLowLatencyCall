@@ -117,6 +117,9 @@ cargo run
 
 ---
 
+## デモ動画
+[![デモ動画](https://cdn.discordapp.com/attachments/1280267756268425290/1519438498929840130/image.png?ex=6a3d8edf&is=6a3c3d5f&hm=c0973ffeba64d2f39383cf83001dcd95f4658b110b0641b2645e24b4b7384bcd&)](https://www.youtube.com/watch?v=f6P1_skrg-o)
+
 ## ライセンス
 
 MIT License
@@ -124,6 +127,3 @@ MIT License
 ## 作者
 
 tachikai
-
-## デモ動画
-[![デモ動画](https://cdn.discordapp.com/attachments/1280267756268425290/1519438498929840130/image.png?ex=6a3d8edf&is=6a3c3d5f&hm=c0973ffeba64d2f39383cf83001dcd95f4658b110b0641b2645e24b4b7384bcd&)](https://www.youtube.com/watch?v=f6P1_skrg-o)
